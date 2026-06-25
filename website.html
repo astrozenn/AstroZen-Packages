@@ -1,9 +1,53 @@
-<html>
+<!DOCTYPE html>
+<html lang="ro">
 <head>
-    <title>Website Test</title>
+    <meta charset="UTF-8">
+    <title>Pachete Foto</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a simple website</p>
+
+<h1>Pachete Fotografice</h1>
+
+<div class="card">
+    <h2>Pachet Standard</h2>
+
+    <ul>
+        <li>50 fotografii editate</li>
+        <li>Galerie online</li>
+        <li>Livrare în 7 zile</li>
+    </ul>
+
+    <h3>500 Lei</h3>
+</div>
+
+<div class="card">
+    <h2>Pachet Personalizat</h2>
+
+    <label>
+        <input type="checkbox" value="50">
+        Retușuri faciale (+50 Lei)
+    </label>
+
+    <label>
+        <input type="checkbox" value="50">
+        Fotografii pe stick USB (+50 Lei)
+    </label>
+
+    <label>
+        <input type="checkbox" value="100">
+        Livrare în 24h (+100 Lei)
+    </label>
+
+    <label>
+        <input type="checkbox" value="200">
+        Album foto (+200 Lei)
+    </label>
+
+    <h3>Total: <span id="price">300</span> Lei</h3>
+</div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
